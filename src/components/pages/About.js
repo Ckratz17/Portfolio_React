@@ -4,9 +4,9 @@ import '../../styles/About.css'
 export default function About(){
     return (
         <div className="aboutMe">
-            <h1>About Me</h1>
+            <h1 className="aboutHead">About Me</h1>
 
-            <img className="selfie" src="./styles/selfie.jpeg" alt=""></img>
+            <img className="selfie" alt=""></img>
 
             <p className="bio">
                 I was born August 20th, 1989 in Orlando Florida but my family moved to Chicago, Illinois a year later.

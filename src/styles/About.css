@@ -1,6 +1,20 @@
 body {
-    background-image: url('codingBg.jpeg');
+    background-image: url('../../public/images/aboutbg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.aboutHead {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bio {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.selfie {
+    src: url('../../public/images/selfie.jpeg');
+}

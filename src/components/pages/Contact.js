@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import '../../styles/Contact.css'
 
 function Form() {
     // Here we set two state variables for firstName and lastName using `useState`
@@ -32,24 +32,47 @@ function Form() {
         <h2>
           Contact
         </h2>
-        <form className="form">
-          <input
-            value={firstName}
-            name="firstName"
+        <form className="flex-row justify-center justify-space-between-md align-center">
+          <div className="col-12">
+            <div className="col-12 titles">
+              Name:
+            </div>
+            <input
+              value={firstName}
+              name="firstName"
+              onChange={handleInputChange}
+              type="text"
+              className="input"
+            />
+          </div>
+          <div className="col-12">
+          <div className="col-12 titles">
+              Email:
+            </div>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="text"
+              className="input"
+            />
+          </div>
+          <div className="col-12">
+          <div className="col-12 titles">
+              Message:
+            </div>
+          <textarea
+            name="thoughtText"
+            className="form-input textarea"
             onChange={handleInputChange}
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Email"
-          />
-          <button type="button" onClick={handleFormSubmit}>
-            Submit
-          </button>
+          ></textarea>
+          </div>
+
+          <div className="col-12">
+            <button type="button" onClick={handleFormSubmit}>
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     );
