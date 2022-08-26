@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import '../styles/Contact.css'
+import { validateEmail } from '../../src/utils/helpers'
 
 function Form() {
     // Here we set two state variables for firstName and lastName using `useState`
     const [firstName, setFirstName] = useState('');
     const [email, setEmail] = useState('');
+
   
     const handleInputChange = (e) => {
       // Getting the value and name of the input which triggered the change
@@ -20,6 +22,12 @@ function Form() {
       // Preventing the default behavior of the form submit (which is to refresh the page)
       e.preventDefault();
 
+      if (!validateEmail(email)) {
+        setErrorMessage('Email or username is invalid');
+        // We want to exit out of this code block if something is wrong so that the user can correct it
+        return;
+        // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+      }
       
       // Alert the user their first and last name, clear the inputs
       alert(`Hello ${firstName} your comment has been sent!`);
