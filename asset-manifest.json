@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e1ab6846.css",
-    "main.js": "/react-portfolio/static/js/main.94243239.js",
-    "static/media/CarbonCombatters.png": "/react-portfolio/static/media/CarbonCombatters.538942d3ecf38e234b98.png",
-    "static/media/BVM.png": "/react-portfolio/static/media/BVM.369778f49024a3d20422.png",
-    "static/media/selfie.jpeg": "/react-portfolio/static/media/selfie.beec2752808e7a94326c.jpeg",
-    "static/media/weather.png": "/react-portfolio/static/media/weather.d95c60788122dbde3ae2.png",
-    "static/media/JATE.png": "/react-portfolio/static/media/JATE.4f619ac34e584a546b98.png",
-    "static/media/aboutbg.jpeg": "/react-portfolio/static/media/aboutbg.69c78db8a61153cf58f0.jpeg",
-    "index.html": "/react-portfolio/index.html",
-    "main.e1ab6846.css.map": "/react-portfolio/static/css/main.e1ab6846.css.map",
-    "main.94243239.js.map": "/react-portfolio/static/js/main.94243239.js.map"
+    "main.css": "/Portfolio_React/static/css/main.0b38544c.css",
+    "main.js": "/Portfolio_React/static/js/main.64ce3102.js",
+    "static/media/CarbonCombatters.png": "/Portfolio_React/static/media/CarbonCombatters.538942d3ecf38e234b98.png",
+    "static/media/BVM.png": "/Portfolio_React/static/media/BVM.369778f49024a3d20422.png",
+    "static/media/selfie.jpeg": "/Portfolio_React/static/media/selfie.beec2752808e7a94326c.jpeg",
+    "static/media/weather.png": "/Portfolio_React/static/media/weather.d95c60788122dbde3ae2.png",
+    "static/media/JATE.png": "/Portfolio_React/static/media/JATE.4f619ac34e584a546b98.png",
+    "static/media/aboutbg.jpeg": "/Portfolio_React/static/media/aboutbg.69c78db8a61153cf58f0.jpeg",
+    "index.html": "/Portfolio_React/index.html",
+    "main.0b38544c.css.map": "/Portfolio_React/static/css/main.0b38544c.css.map",
+    "main.64ce3102.js.map": "/Portfolio_React/static/js/main.64ce3102.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ab6846.css",
-    "static/js/main.94243239.js"
+    "static/css/main.0b38544c.css",
+    "static/js/main.64ce3102.js"
   ]
 }
