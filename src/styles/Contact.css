@@ -1,6 +1,6 @@
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    color: beige;
 }
 
 .titles {
@@ -9,7 +9,7 @@ h2 {
 }
 
 .input {
-    width: 300px;
+    width: 400px;
 }
 
 .textarea {

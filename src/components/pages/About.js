@@ -1,13 +1,16 @@
 import React from "react";
 import '../../styles/About.css'
+import selfie from '../../images/selfie.jpeg'
+
 
 export default function About(){
     return (
         <div className="aboutMe">
             <h1 className="aboutHead">About Me</h1>
 
-            <img className="selfie" alt=""></img>
-
+            <div className="image">
+                <img className="selfie" src={selfie} alt=""></img>
+            </div>
             <p className="bio">
                 I was born August 20th, 1989 in Orlando Florida but my family moved to Chicago, Illinois a year later.
                 After spending my elementary years in Chicago, my family moved back to Florida, this time moving to Jacksonville where i have lived since.

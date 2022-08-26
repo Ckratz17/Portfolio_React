@@ -29,9 +29,9 @@ function Form() {
   
     return (
       <div>
-        <h2>
+        <h1>
           Contact
-        </h2>
+        </h1>
         <form className="flex-row justify-center justify-space-between-md align-center">
           <div className="col-12">
             <div className="col-12 titles">
