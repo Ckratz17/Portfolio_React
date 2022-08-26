@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer">
             <div className="row">
                 <div className="col">
-                    <a href="https://www.linkedin.com/in/soumyajit4419/" className="linkedIn" style={{color: "white"}}><FaLinkedinIn /></a>
+                    <a href="https://www.linkedin.com/in/christopher-kratz-2a0714247/" className="linkedIn" style={{color: "white"}}><FaLinkedinIn /></a>
                 </div>
                 <div className="col md-4">
                     <h3>Designed and Developed by Christopher Kratz</h3>
