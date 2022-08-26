@@ -1,6 +1,6 @@
 import React from "react";
-import '../../styles/About.css'
-import selfie from '../../images/selfie.jpeg'
+import '../styles/About.css'
+import selfie from '../images/selfie.jpeg'
 
 
 export default function About(){

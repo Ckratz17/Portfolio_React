@@ -1,0 +1,12 @@
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: beige;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px
+}

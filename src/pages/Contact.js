@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../styles/Contact.css'
+import '../styles/Contact.css'
 
 function Form() {
     // Here we set two state variables for firstName and lastName using `useState`
