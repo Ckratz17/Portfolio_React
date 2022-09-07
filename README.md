@@ -18,6 +18,8 @@
     
 A personalized portfolio page using React.js that can also be used as a template for future projects.
 
+[Link to Deployed Site](https://ckratz17.github.io/Portfolio_React/)
+
 ## Technologies
 
 This project was built with:
