@@ -3,6 +3,7 @@ import JATE from "../images/JATE.png"
 import Weather from "../images/weather.png"
 import BVM from "../images/BVM.png"
 import CarbonCombatters from "../images/CarbonCombatters.png"
+import Carded from '../images/Carded.png'
 import ProjectCards from "../components/ProjectCard";
 
 export default function Portfolio() {
@@ -53,6 +54,16 @@ export default function Portfolio() {
                       description="A web application that allows a user to sign up and create a profile that will then track their carbon footprint."
                       ghLink="https://github.com/Mkish1220/CarbonCombaters"
                       demoLink="https://carbon-combaters.herokuapp.com/landing"
+                      />
+                </div>
+                <div className="col md-4 project-card">
+                    <ProjectCards 
+                      imgPath={Carded}
+                      isBlog={false}
+                      title="Carded"
+                      description="Carded is your online business card solution with team creation to keep your businesses organized."
+                      ghLink="https://github.com/DRCallaghan/Carded"
+                      demoLink="https://get-carded.herokuapp.com/"
                       />
                 </div>
             </div>
