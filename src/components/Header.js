@@ -19,7 +19,7 @@ function Nav({ currentPage, handlePageChange }) {
 
         <header className="header" style={styles.header}>  
 
-            <h1>Christopher Kratz</h1>
+            <div className="name">Christopher Kratz</div>
 
             <ul className="nav justify-content-end align-items-center">
                 <li className="nav-item">

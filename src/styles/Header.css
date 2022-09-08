@@ -1,11 +1,9 @@
-h1 {
+.name {
     color: beige;
     font-family: 'Courier New', Courier, monospace;
     padding-right: 85px;
     font-size: 40px;
 }
-
-
 
 .nav {
     align-items: right;
